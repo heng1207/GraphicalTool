@@ -29,6 +29,9 @@
 		0469DFC220D21D080096C35C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DFB620D21D080096C35C /* MASViewAttribute.m */; };
 		0469DFC320D21D080096C35C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0469DFB720D21D080096C35C /* README.md */; };
 		3C6F0D645798500F66A88664 /* Pods_xxxxxx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F21C90FB8D27E8A6199D9BB /* Pods_xxxxxx.framework */; };
+		7E1A255920D6693C0061D98B /* BezierLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1A255720D6693B0061D98B /* BezierLineView.m */; };
+		7E1A255A20D6693C0061D98B /* BezierCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1A255820D6693B0061D98B /* BezierCurveView.m */; };
+		7E1A255D20D669630061D98B /* BezierDrawLineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1A255C20D669630061D98B /* BezierDrawLineVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +80,12 @@
 		0469DFB720D21D080096C35C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4F21C90FB8D27E8A6199D9BB /* Pods_xxxxxx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xxxxxx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		770B07955E2B0F861B7816E8 /* Pods-xxxxxx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xxxxxx.release.xcconfig"; path = "Pods/Target Support Files/Pods-xxxxxx/Pods-xxxxxx.release.xcconfig"; sourceTree = "<group>"; };
+		7E1A255520D6693B0061D98B /* BezierLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierLineView.h; sourceTree = "<group>"; };
+		7E1A255620D6693B0061D98B /* BezierCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierCurveView.h; sourceTree = "<group>"; };
+		7E1A255720D6693B0061D98B /* BezierLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierLineView.m; sourceTree = "<group>"; };
+		7E1A255820D6693B0061D98B /* BezierCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierCurveView.m; sourceTree = "<group>"; };
+		7E1A255B20D669630061D98B /* BezierDrawLineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierDrawLineVC.h; sourceTree = "<group>"; };
+		7E1A255C20D669630061D98B /* BezierDrawLineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierDrawLineVC.m; sourceTree = "<group>"; };
 		D4895A363981AF96DB9C8D65 /* Pods-xxxxxx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xxxxxx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xxxxxx/Pods-xxxxxx.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +130,7 @@
 				0469DF9520D210530096C35C /* TestViewController.m */,
 				0469DF9820D21C670096C35C /* LineChartViewController.h */,
 				0469DF9920D21C670096C35C /* LineChartViewController.m */,
+				7E1A255420D6693B0061D98B /* BezierDrawLine */,
 				041B8A4520CF9A1E003D62D2 /* Main.storyboard */,
 				041B8A4820CF9A1E003D62D2 /* Assets.xcassets */,
 				041B8A4A20CF9A1E003D62D2 /* LaunchScreen.storyboard */,
@@ -173,6 +183,19 @@
 				0469DFB620D21D080096C35C /* MASViewAttribute.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		7E1A255420D6693B0061D98B /* BezierDrawLine */ = {
+			isa = PBXGroup;
+			children = (
+				7E1A255B20D669630061D98B /* BezierDrawLineVC.h */,
+				7E1A255C20D669630061D98B /* BezierDrawLineVC.m */,
+				7E1A255520D6693B0061D98B /* BezierLineView.h */,
+				7E1A255620D6693B0061D98B /* BezierCurveView.h */,
+				7E1A255720D6693B0061D98B /* BezierLineView.m */,
+				7E1A255820D6693B0061D98B /* BezierCurveView.m */,
+			);
+			path = BezierDrawLine;
 			sourceTree = "<group>";
 		};
 		AD10E2A84B5D012EF085225A /* Frameworks */ = {
@@ -324,11 +347,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0469DFC120D21D080096C35C /* MASViewConstraint.m in Sources */,
+				7E1A255D20D669630061D98B /* BezierDrawLineVC.m in Sources */,
 				041B8A4420CF9A1E003D62D2 /* ViewController.m in Sources */,
 				0469DFBC20D21D080096C35C /* MASConstraintMaker.m in Sources */,
 				041B8A5720CF9D97003D62D2 /* Test.swift in Sources */,
+				7E1A255920D6693C0061D98B /* BezierLineView.m in Sources */,
 				0469DFBA20D21D080096C35C /* ViewController+MASAdditions.m in Sources */,
 				0469DFB920D21D080096C35C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				7E1A255A20D6693C0061D98B /* BezierCurveView.m in Sources */,
 				0469DFBB20D21D080096C35C /* MASCompositeConstraint.m in Sources */,
 				041B8A4F20CF9A1E003D62D2 /* main.m in Sources */,
 				0469DFBD20D21D080096C35C /* MASLayoutConstraint.m in Sources */,

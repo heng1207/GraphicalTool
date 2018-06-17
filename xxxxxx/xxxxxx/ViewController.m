@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "TestViewController.h"
 #import "LineChartViewController.h"
-
+#import "BezierDrawLineVC.h"
 
 @interface ViewController ()
 
@@ -26,8 +26,9 @@
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    BezierDrawLineVC *vc=[BezierDrawLineVC new];
 //    TestViewController *vc=[TestViewController new];
-    LineChartViewController *vc=[LineChartViewController new];
+//    LineChartViewController *vc=[LineChartViewController new];
     [self presentViewController:vc animated:YES completion:nil];
 }
 - (void)didReceiveMemoryWarning {
