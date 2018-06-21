@@ -11,7 +11,11 @@
 #import "LineChartViewController.h"
 #import "BezierDrawLineVC.h"
 
-@interface ViewController ()
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
 
@@ -19,18 +23,55 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor =[UIColor redColor];
+    self.view.backgroundColor =[UIColor whiteColor];
 
+    UITableView *tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStylePlain];
+    tableView.delegate = self;
+    tableView.dataSource = self;
+    [self.view addSubview:tableView];
+    
+    [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    
+    
 
     // Do any additional setup after loading the view, typically from a nib.
 }
 
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    BezierDrawLineVC *vc=[BezierDrawLineVC new];
-//    TestViewController *vc=[TestViewController new];
-//    LineChartViewController *vc=[LineChartViewController new];
-    [self presentViewController:vc animated:YES completion:nil];
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 15;
 }
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    if (indexPath.row==0) {
+        cell.textLabel.text =@"BezierDrawLine";
+    }else if (indexPath.row==1){
+        cell.textLabel.text =@"Chart曲线";
+    }else if (indexPath.row==2){
+        cell.textLabel.text =@"Chart折线";
+    }
+    return cell;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 50;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row==0) {
+        BezierDrawLineVC *vc=[BezierDrawLineVC new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row==1){
+        TestViewController *vc=[TestViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row==2){
+        LineChartViewController *vc=[LineChartViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

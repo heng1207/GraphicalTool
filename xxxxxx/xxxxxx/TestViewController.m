@@ -21,7 +21,7 @@
     [super viewDidLoad];
     self.view.backgroundColor =[UIColor whiteColor];
 
-    LineChartView *lineChartView = [[LineChartView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 300)];
+    LineChartView *lineChartView = [[LineChartView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width-30, 300)];
     [self.view addSubview:lineChartView];
     self.lineChartView = lineChartView;
     
@@ -40,15 +40,12 @@
     [lineChartView animateWithXAxisDuration:1];
     
 //    设置纵轴坐标显示在左边而非右边
-    ChartYAxis *leftAxis = self.lineChartView.leftAxis;//获取左边Y轴
-    leftAxis.drawGridLinesEnabled = NO;
-    leftAxis.labelTextColor = [UIColor blueColor];
-    
+    self.lineChartView.leftAxis.enabled = NO;//不绘制左边轴
     
     ChartYAxis *rightAxis = self.lineChartView.rightAxis;//获取左边Y轴
     rightAxis.drawGridLinesEnabled = NO;//不绘制网格线
-    rightAxis.labelTextColor = [UIColor whiteColor];
-    
+    rightAxis.labelTextColor = [UIColor blueColor];
+    rightAxis.axisLineColor = [UIColor whiteColor];//Y轴颜色
 
     //设置横轴坐标显示在下方 默认显示是在顶部
     ChartXAxis *xAxis = lineChartView.xAxis;
@@ -138,6 +135,18 @@
         
 
 
+    UILabel *titleLab =[[UILabel alloc]initWithFrame:CGRectMake(0, 0, 200, 10)];
+    titleLab.text =@"数据来源于www.baidu.com";
+    titleLab.textColor =[UIColor redColor];
+    titleLab.font =[UIFont systemFontOfSize:14];
+    [self.lineChartView addSubview:titleLab];
+    
+    
+    UIButton *compareBtn = [[UIButton alloc]initWithFrame:CGRectMake(self.lineChartView.frame.size.width-30, 0, 30, 20)];
+    [compareBtn setTitle:@"对比" forState:UIControlStateNormal];
+    [compareBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    compareBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+    [self.lineChartView addSubview:compareBtn];
     
     // Do any additional setup after loading the view.
 }
