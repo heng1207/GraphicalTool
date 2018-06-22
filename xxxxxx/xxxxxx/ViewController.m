@@ -10,6 +10,7 @@
 #import "TestViewController.h"
 #import "LineChartViewController.h"
 #import "BezierDrawLineVC.h"
+#import "GraphicsVC.h"
 
 
 #define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
@@ -51,6 +52,8 @@
         cell.textLabel.text =@"Chart曲线";
     }else if (indexPath.row==2){
         cell.textLabel.text =@"Chart折线";
+    }else if (indexPath.row==3){
+        cell.textLabel.text =@"Graphics";
     }
     return cell;
 }
@@ -69,7 +72,10 @@
         LineChartViewController *vc=[LineChartViewController new];
         [self.navigationController pushViewController:vc animated:YES];
     }
-
+    else if (indexPath.row==3){
+        GraphicsVC *vc=[GraphicsVC new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
