@@ -9,7 +9,7 @@
 #import "BezierDrawLineVC.h"
 
 #import "BezierLineView.h"
-#import "BezierCurveView.h"
+
 
 
 #define SCREEN_W  [UIScreen mainScreen].bounds.size.width
@@ -19,7 +19,6 @@
 
 
 @property (strong,nonatomic)BezierLineView *lineView;
-@property (strong,nonatomic)BezierCurveView *bezierView2;
 @property (strong,nonatomic)NSMutableArray *x_names;
 @property (strong,nonatomic)NSMutableArray *targets;
 @property (strong,nonatomic)NSMutableArray *y_names;
@@ -65,20 +64,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor grayColor];
     
-    self.view.backgroundColor=[UIColor whiteColor];
+
+    [self drawLineChart];
     
-    
-    //2.折线图
-    //    [self drawLineChart];
-    
-    [self drawCurveChart];
 
     
     // Do any additional setup after loading the view.
 }
 
-//画折线图
 -(void)drawLineChart{
     
     //1.初始化
@@ -88,20 +83,9 @@
     //直线
     [_lineView drawLineChartViewWithX_Value_Names:self.x_names Y_Value_Names:self.y_names TargetValues:self.targets LineType:LineType_Straight];
     
-}
-
-
-//画曲线图
--(void)drawCurveChart{
-    
-    //1.初始化
-    _bezierView2 = [[BezierCurveView alloc]initWithFrame:CGRectMake(0, 120, SCREEN_W, 250)];
-    [self.view addSubview:_bezierView2];
-    
     //曲线
-    [_bezierView2 drawLineChartViewWithX_Value_Names:self.x_names Y_Value_Names:self.y_names TargetValues:self.targets LineType:LineType_quxian];
+//    [_lineView drawLineChartViewWithX_Value_Names:self.x_names Y_Value_Names:self.y_names TargetValues:self.targets LineType:LineType_Curve];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

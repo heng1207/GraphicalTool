@@ -14,25 +14,20 @@
 		041B8A4C20CF9A1E003D62D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041B8A4A20CF9A1E003D62D2 /* LaunchScreen.storyboard */; };
 		041B8A4F20CF9A1E003D62D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B8A4E20CF9A1E003D62D2 /* main.m */; };
 		041B8A5720CF9D97003D62D2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B8A5620CF9D97003D62D2 /* Test.swift */; };
-		044A514420DCDEFF00F9958A /* GraphicsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A514320DCDEFF00F9958A /* GraphicsVC.m */; };
-		044A514720DCDF5700F9958A /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A514520DCDF5700F9958A /* CustomView.m */; };
-		0469DF9620D210530096C35C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DF9520D210530096C35C /* TestViewController.m */; };
-		0469DF9A20D21C670096C35C /* LineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DF9920D21C670096C35C /* LineChartViewController.m */; };
-		0469DFB820D21D080096C35C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0469DF9C20D21D080096C35C /* LICENSE */; };
-		0469DFB920D21D080096C35C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DF9F20D21D080096C35C /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		0469DFBA20D21D080096C35C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DFA820D21D080096C35C /* ViewController+MASAdditions.m */; };
-		0469DFBB20D21D080096C35C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DFAC20D21D080096C35C /* MASCompositeConstraint.m */; };
-		0469DFBC20D21D080096C35C /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DFAD20D21D080096C35C /* MASConstraintMaker.m */; };
-		0469DFBD20D21D080096C35C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DFAE20D21D080096C35C /* MASLayoutConstraint.m */; };
-		0469DFBE20D21D080096C35C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DFAF20D21D080096C35C /* NSArray+MASAdditions.m */; };
-		0469DFBF20D21D080096C35C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DFB020D21D080096C35C /* View+MASAdditions.m */; };
-		0469DFC020D21D080096C35C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DFB320D21D080096C35C /* MASConstraint.m */; };
-		0469DFC120D21D080096C35C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DFB520D21D080096C35C /* MASViewConstraint.m */; };
-		0469DFC220D21D080096C35C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469DFB620D21D080096C35C /* MASViewAttribute.m */; };
-		0469DFC320D21D080096C35C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0469DFB720D21D080096C35C /* README.md */; };
+		0430252520E1D58500094314 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430252020E1D58500094314 /* BezierView.m */; };
+		0430252620E1D58500094314 /* TargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430252220E1D58500094314 /* TargetView.m */; };
+		0430252720E1D58500094314 /* BezierCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430252420E1D58500094314 /* BezierCurveView.m */; };
+		0430252A20E1D7A700094314 /* BezierSlideLineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430252920E1D7A700094314 /* BezierSlideLineVC.m */; };
+		0430253C20E1E7A900094314 /* YAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430253620E1E7A900094314 /* YAxisView.m */; };
+		0430253D20E1E7A900094314 /* XAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430253820E1E7A900094314 /* XAxisView.m */; };
+		0430253E20E1E7A900094314 /* WSLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430253A20E1E7A900094314 /* WSLineChartView.m */; };
+		0430254120E1E7DD00094314 /* GraphicsLineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430254020E1E7DD00094314 /* GraphicsLineVC.m */; };
+		043EDD0020E08BA60063D4F6 /* GraphicsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EDCF720E08BA60063D4F6 /* GraphicsVC.m */; };
+		043EDD0120E08BA60063D4F6 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EDCFA20E08BA60063D4F6 /* CustomView.m */; };
+		043EDD0220E08BA60063D4F6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EDCFC20E08BA60063D4F6 /* TestViewController.m */; };
+		043EDD0320E08BA60063D4F6 /* LineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EDCFF20E08BA60063D4F6 /* LineChartViewController.m */; };
 		3C6F0D645798500F66A88664 /* Pods_xxxxxx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F21C90FB8D27E8A6199D9BB /* Pods_xxxxxx.framework */; };
 		7E1A255920D6693C0061D98B /* BezierLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1A255720D6693B0061D98B /* BezierLineView.m */; };
-		7E1A255A20D6693C0061D98B /* BezierCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1A255820D6693B0061D98B /* BezierCurveView.m */; };
 		7E1A255D20D669630061D98B /* BezierDrawLineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1A255C20D669630061D98B /* BezierDrawLineVC.m */; };
 /* End PBXBuildFile section */
 
@@ -49,47 +44,34 @@
 		041B8A4E20CF9A1E003D62D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		041B8A5520CF9D97003D62D2 /* xxxxxx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xxxxxx-Bridging-Header.h"; sourceTree = "<group>"; };
 		041B8A5620CF9D97003D62D2 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		044A514220DCDEFF00F9958A /* GraphicsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicsVC.h; sourceTree = "<group>"; };
-		044A514320DCDEFF00F9958A /* GraphicsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicsVC.m; sourceTree = "<group>"; };
-		044A514520DCDF5700F9958A /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
-		044A514620DCDF5700F9958A /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
-		0469DF9420D210530096C35C /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		0469DF9520D210530096C35C /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		0469DF9820D21C670096C35C /* LineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewController.h; sourceTree = "<group>"; };
-		0469DF9920D21C670096C35C /* LineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewController.m; sourceTree = "<group>"; };
-		0469DF9C20D21D080096C35C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0469DF9E20D21D080096C35C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		0469DF9F20D21D080096C35C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		0469DFA020D21D080096C35C /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		0469DFA120D21D080096C35C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		0469DFA220D21D080096C35C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		0469DFA320D21D080096C35C /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		0469DFA420D21D080096C35C /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		0469DFA520D21D080096C35C /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		0469DFA620D21D080096C35C /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		0469DFA720D21D080096C35C /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		0469DFA820D21D080096C35C /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		0469DFA920D21D080096C35C /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		0469DFAA20D21D080096C35C /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		0469DFAB20D21D080096C35C /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		0469DFAC20D21D080096C35C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		0469DFAD20D21D080096C35C /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		0469DFAE20D21D080096C35C /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		0469DFAF20D21D080096C35C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		0469DFB020D21D080096C35C /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		0469DFB120D21D080096C35C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		0469DFB220D21D080096C35C /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		0469DFB320D21D080096C35C /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		0469DFB420D21D080096C35C /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		0469DFB520D21D080096C35C /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		0469DFB620D21D080096C35C /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		0469DFB720D21D080096C35C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0430251F20E1D58500094314 /* BezierCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierCurveView.h; sourceTree = "<group>"; };
+		0430252020E1D58500094314 /* BezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
+		0430252120E1D58500094314 /* TargetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetView.h; sourceTree = "<group>"; };
+		0430252220E1D58500094314 /* TargetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetView.m; sourceTree = "<group>"; };
+		0430252320E1D58500094314 /* BezierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierView.h; sourceTree = "<group>"; };
+		0430252420E1D58500094314 /* BezierCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierCurveView.m; sourceTree = "<group>"; };
+		0430252820E1D7A700094314 /* BezierSlideLineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierSlideLineVC.h; sourceTree = "<group>"; };
+		0430252920E1D7A700094314 /* BezierSlideLineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierSlideLineVC.m; sourceTree = "<group>"; };
+		0430253620E1E7A900094314 /* YAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAxisView.m; sourceTree = "<group>"; };
+		0430253720E1E7A900094314 /* WSLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLineChartView.h; sourceTree = "<group>"; };
+		0430253820E1E7A900094314 /* XAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAxisView.m; sourceTree = "<group>"; };
+		0430253920E1E7A900094314 /* YAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAxisView.h; sourceTree = "<group>"; };
+		0430253A20E1E7A900094314 /* WSLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLineChartView.m; sourceTree = "<group>"; };
+		0430253B20E1E7A900094314 /* XAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAxisView.h; sourceTree = "<group>"; };
+		0430253F20E1E7DD00094314 /* GraphicsLineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicsLineVC.h; sourceTree = "<group>"; };
+		0430254020E1E7DD00094314 /* GraphicsLineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicsLineVC.m; sourceTree = "<group>"; };
+		043EDCF720E08BA60063D4F6 /* GraphicsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsVC.m; sourceTree = "<group>"; };
+		043EDCF820E08BA60063D4F6 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		043EDCF920E08BA60063D4F6 /* GraphicsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsVC.h; sourceTree = "<group>"; };
+		043EDCFA20E08BA60063D4F6 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		043EDCFC20E08BA60063D4F6 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		043EDCFD20E08BA60063D4F6 /* LineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewController.h; sourceTree = "<group>"; };
+		043EDCFE20E08BA60063D4F6 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		043EDCFF20E08BA60063D4F6 /* LineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewController.m; sourceTree = "<group>"; };
 		4F21C90FB8D27E8A6199D9BB /* Pods_xxxxxx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xxxxxx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		770B07955E2B0F861B7816E8 /* Pods-xxxxxx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xxxxxx.release.xcconfig"; path = "Pods/Target Support Files/Pods-xxxxxx/Pods-xxxxxx.release.xcconfig"; sourceTree = "<group>"; };
 		7E1A255520D6693B0061D98B /* BezierLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierLineView.h; sourceTree = "<group>"; };
-		7E1A255620D6693B0061D98B /* BezierCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierCurveView.h; sourceTree = "<group>"; };
 		7E1A255720D6693B0061D98B /* BezierLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierLineView.m; sourceTree = "<group>"; };
-		7E1A255820D6693B0061D98B /* BezierCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierCurveView.m; sourceTree = "<group>"; };
 		7E1A255B20D669630061D98B /* BezierDrawLineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierDrawLineVC.h; sourceTree = "<group>"; };
 		7E1A255C20D669630061D98B /* BezierDrawLineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierDrawLineVC.m; sourceTree = "<group>"; };
 		D4895A363981AF96DB9C8D65 /* Pods-xxxxxx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xxxxxx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xxxxxx/Pods-xxxxxx.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,15 +114,11 @@
 				041B8A4020CF9A1E003D62D2 /* AppDelegate.m */,
 				041B8A4220CF9A1E003D62D2 /* ViewController.h */,
 				041B8A4320CF9A1E003D62D2 /* ViewController.m */,
-				0469DF9420D210530096C35C /* TestViewController.h */,
-				0469DF9520D210530096C35C /* TestViewController.m */,
-				0469DF9820D21C670096C35C /* LineChartViewController.h */,
-				0469DF9920D21C670096C35C /* LineChartViewController.m */,
-				044A514220DCDEFF00F9958A /* GraphicsVC.h */,
-				044A514320DCDEFF00F9958A /* GraphicsVC.m */,
-				044A514620DCDF5700F9958A /* CustomView.h */,
-				044A514520DCDF5700F9958A /* CustomView.m */,
+				0430251E20E1D58500094314 /* BezierLine */,
 				7E1A255420D6693B0061D98B /* BezierDrawLine */,
+				043EDCFB20E08BA60063D4F6 /* Charts */,
+				043EDCF620E08BA60063D4F6 /* Graphics */,
+				0430253520E1E7A900094314 /* GraphicsLine */,
 				041B8A4520CF9A1E003D62D2 /* Main.storyboard */,
 				041B8A4820CF9A1E003D62D2 /* Assets.xcassets */,
 				041B8A4A20CF9A1E003D62D2 /* LaunchScreen.storyboard */,
@@ -148,51 +126,60 @@
 				041B8A5620CF9D97003D62D2 /* Test.swift */,
 				041B8A4E20CF9A1E003D62D2 /* main.m */,
 				041B8A5520CF9D97003D62D2 /* xxxxxx-Bridging-Header.h */,
-				0469DF9B20D21D080096C35C /* Masonry */,
 			);
 			path = xxxxxx;
 			sourceTree = "<group>";
 		};
-		0469DF9B20D21D080096C35C /* Masonry */ = {
+		0430251E20E1D58500094314 /* BezierLine */ = {
 			isa = PBXGroup;
 			children = (
-				0469DF9C20D21D080096C35C /* LICENSE */,
-				0469DF9D20D21D080096C35C /* Masonry */,
-				0469DFB720D21D080096C35C /* README.md */,
+				0430252820E1D7A700094314 /* BezierSlideLineVC.h */,
+				0430252920E1D7A700094314 /* BezierSlideLineVC.m */,
+				0430252320E1D58500094314 /* BezierView.h */,
+				0430252020E1D58500094314 /* BezierView.m */,
+				0430251F20E1D58500094314 /* BezierCurveView.h */,
+				0430252420E1D58500094314 /* BezierCurveView.m */,
+				0430252120E1D58500094314 /* TargetView.h */,
+				0430252220E1D58500094314 /* TargetView.m */,
 			);
-			path = Masonry;
+			path = BezierLine;
 			sourceTree = "<group>";
 		};
-		0469DF9D20D21D080096C35C /* Masonry */ = {
+		0430253520E1E7A900094314 /* GraphicsLine */ = {
 			isa = PBXGroup;
 			children = (
-				0469DF9E20D21D080096C35C /* MASCompositeConstraint.h */,
-				0469DF9F20D21D080096C35C /* NSLayoutConstraint+MASDebugAdditions.m */,
-				0469DFA020D21D080096C35C /* MASConstraint+Private.h */,
-				0469DFA120D21D080096C35C /* MASLayoutConstraint.h */,
-				0469DFA220D21D080096C35C /* NSArray+MASShorthandAdditions.h */,
-				0469DFA320D21D080096C35C /* MASConstraintMaker.h */,
-				0469DFA420D21D080096C35C /* View+MASAdditions.h */,
-				0469DFA520D21D080096C35C /* NSArray+MASAdditions.h */,
-				0469DFA620D21D080096C35C /* MASUtilities.h */,
-				0469DFA720D21D080096C35C /* MASViewAttribute.h */,
-				0469DFA820D21D080096C35C /* ViewController+MASAdditions.m */,
-				0469DFA920D21D080096C35C /* MASViewConstraint.h */,
-				0469DFAA20D21D080096C35C /* MASConstraint.h */,
-				0469DFAB20D21D080096C35C /* NSLayoutConstraint+MASDebugAdditions.h */,
-				0469DFAC20D21D080096C35C /* MASCompositeConstraint.m */,
-				0469DFAD20D21D080096C35C /* MASConstraintMaker.m */,
-				0469DFAE20D21D080096C35C /* MASLayoutConstraint.m */,
-				0469DFAF20D21D080096C35C /* NSArray+MASAdditions.m */,
-				0469DFB020D21D080096C35C /* View+MASAdditions.m */,
-				0469DFB120D21D080096C35C /* View+MASShorthandAdditions.h */,
-				0469DFB220D21D080096C35C /* Masonry.h */,
-				0469DFB320D21D080096C35C /* MASConstraint.m */,
-				0469DFB420D21D080096C35C /* ViewController+MASAdditions.h */,
-				0469DFB520D21D080096C35C /* MASViewConstraint.m */,
-				0469DFB620D21D080096C35C /* MASViewAttribute.m */,
+				0430253F20E1E7DD00094314 /* GraphicsLineVC.h */,
+				0430254020E1E7DD00094314 /* GraphicsLineVC.m */,
+				0430253720E1E7A900094314 /* WSLineChartView.h */,
+				0430253A20E1E7A900094314 /* WSLineChartView.m */,
+				0430253B20E1E7A900094314 /* XAxisView.h */,
+				0430253820E1E7A900094314 /* XAxisView.m */,
+				0430253920E1E7A900094314 /* YAxisView.h */,
+				0430253620E1E7A900094314 /* YAxisView.m */,
 			);
-			path = Masonry;
+			path = GraphicsLine;
+			sourceTree = "<group>";
+		};
+		043EDCF620E08BA60063D4F6 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				043EDCF920E08BA60063D4F6 /* GraphicsVC.h */,
+				043EDCF720E08BA60063D4F6 /* GraphicsVC.m */,
+				043EDCF820E08BA60063D4F6 /* CustomView.h */,
+				043EDCFA20E08BA60063D4F6 /* CustomView.m */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		043EDCFB20E08BA60063D4F6 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				043EDCFE20E08BA60063D4F6 /* TestViewController.h */,
+				043EDCFC20E08BA60063D4F6 /* TestViewController.m */,
+				043EDCFD20E08BA60063D4F6 /* LineChartViewController.h */,
+				043EDCFF20E08BA60063D4F6 /* LineChartViewController.m */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 		7E1A255420D6693B0061D98B /* BezierDrawLine */ = {
@@ -201,9 +188,7 @@
 				7E1A255B20D669630061D98B /* BezierDrawLineVC.h */,
 				7E1A255C20D669630061D98B /* BezierDrawLineVC.m */,
 				7E1A255520D6693B0061D98B /* BezierLineView.h */,
-				7E1A255620D6693B0061D98B /* BezierCurveView.h */,
 				7E1A255720D6693B0061D98B /* BezierLineView.m */,
-				7E1A255820D6693B0061D98B /* BezierCurveView.m */,
 			);
 			path = BezierDrawLine;
 			sourceTree = "<group>";
@@ -289,8 +274,6 @@
 			files = (
 				041B8A4C20CF9A1E003D62D2 /* LaunchScreen.storyboard in Resources */,
 				041B8A4920CF9A1E003D62D2 /* Assets.xcassets in Resources */,
-				0469DFC320D21D080096C35C /* README.md in Resources */,
-				0469DFB820D21D080096C35C /* LICENSE in Resources */,
 				041B8A4720CF9A1E003D62D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,10 +322,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-xxxxxx/Pods-xxxxxx-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -356,27 +343,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0469DFC120D21D080096C35C /* MASViewConstraint.m in Sources */,
 				7E1A255D20D669630061D98B /* BezierDrawLineVC.m in Sources */,
 				041B8A4420CF9A1E003D62D2 /* ViewController.m in Sources */,
-				0469DFBC20D21D080096C35C /* MASConstraintMaker.m in Sources */,
 				041B8A5720CF9D97003D62D2 /* Test.swift in Sources */,
 				7E1A255920D6693C0061D98B /* BezierLineView.m in Sources */,
-				0469DFBA20D21D080096C35C /* ViewController+MASAdditions.m in Sources */,
-				0469DFB920D21D080096C35C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				7E1A255A20D6693C0061D98B /* BezierCurveView.m in Sources */,
-				0469DFBB20D21D080096C35C /* MASCompositeConstraint.m in Sources */,
+				0430252620E1D58500094314 /* TargetView.m in Sources */,
+				0430253E20E1E7A900094314 /* WSLineChartView.m in Sources */,
+				0430252A20E1D7A700094314 /* BezierSlideLineVC.m in Sources */,
+				043EDD0120E08BA60063D4F6 /* CustomView.m in Sources */,
 				041B8A4F20CF9A1E003D62D2 /* main.m in Sources */,
-				044A514720DCDF5700F9958A /* CustomView.m in Sources */,
-				0469DFBD20D21D080096C35C /* MASLayoutConstraint.m in Sources */,
-				0469DFBF20D21D080096C35C /* View+MASAdditions.m in Sources */,
-				0469DFBE20D21D080096C35C /* NSArray+MASAdditions.m in Sources */,
+				043EDD0220E08BA60063D4F6 /* TestViewController.m in Sources */,
+				043EDD0020E08BA60063D4F6 /* GraphicsVC.m in Sources */,
+				0430253C20E1E7A900094314 /* YAxisView.m in Sources */,
+				0430252520E1D58500094314 /* BezierView.m in Sources */,
 				041B8A4120CF9A1E003D62D2 /* AppDelegate.m in Sources */,
-				0469DF9620D210530096C35C /* TestViewController.m in Sources */,
-				0469DFC220D21D080096C35C /* MASViewAttribute.m in Sources */,
-				044A514420DCDEFF00F9958A /* GraphicsVC.m in Sources */,
-				0469DFC020D21D080096C35C /* MASConstraint.m in Sources */,
-				0469DF9A20D21C670096C35C /* LineChartViewController.m in Sources */,
+				0430252720E1D58500094314 /* BezierCurveView.m in Sources */,
+				0430254120E1E7DD00094314 /* GraphicsLineVC.m in Sources */,
+				0430253D20E1E7A900094314 /* XAxisView.m in Sources */,
+				043EDD0320E08BA60063D4F6 /* LineChartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,5 +3,6 @@ use_frameworks!
 
 target 'xxxxxx' do
   pod 'Charts'
-
+  pod 'SVProgressHUD'
+  pod 'Masonry'
 end

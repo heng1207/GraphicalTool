@@ -2,13 +2,19 @@ PODS:
   - Charts (3.1.1):
     - Charts/Core (= 3.1.1)
   - Charts/Core (3.1.1)
+  - Masonry (1.1.0)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - Charts
+  - Masonry
+  - SVProgressHUD
 
 SPEC CHECKSUMS:
   Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: af91d4bf728b5c71cd9786a2d4e83f64dc55f347
+PODFILE CHECKSUM: 85193a751e2a440ae78a9122be30582cf2d9924e
 
 COCOAPODS: 1.4.0

@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor grayColor];
     
     CustomView *view =[[CustomView alloc]initWithFrame:CGRectMake(20, 100, 300, 200)];
     view.backgroundColor = [UIColor whiteColor];

@@ -7,11 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "BezierSlideLineVC.h"
 #import "TestViewController.h"
 #import "LineChartViewController.h"
 #import "BezierDrawLineVC.h"
 #import "GraphicsVC.h"
-
+#import "GraphicsLineVC.h"
 
 #define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
 #define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
@@ -47,13 +48,17 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     if (indexPath.row==0) {
-        cell.textLabel.text =@"BezierDrawLine";
+        cell.textLabel.text =@"BezierDrawLine不能移动放大缩小";
     }else if (indexPath.row==1){
-        cell.textLabel.text =@"Chart曲线";
+         cell.textLabel.text =@"BezierDrawLine可移动放大缩小";
     }else if (indexPath.row==2){
-        cell.textLabel.text =@"Chart折线";
+        cell.textLabel.text =@"Chart曲线";
     }else if (indexPath.row==3){
+        cell.textLabel.text =@"Chart折线";
+    }else if (indexPath.row==4){
         cell.textLabel.text =@"Graphics";
+    }else if (indexPath.row==5){
+        cell.textLabel.text =@"用Graphics画高密集曲线，可捏合放大缩小，左右滑动";
     }
     return cell;
 }
@@ -66,14 +71,19 @@
         BezierDrawLineVC *vc=[BezierDrawLineVC new];
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.row==1){
-        TestViewController *vc=[TestViewController new];
+        BezierSlideLineVC *vc=[BezierSlideLineVC new];
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.row==2){
+        TestViewController *vc=[TestViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row==3){
         LineChartViewController *vc=[LineChartViewController new];
         [self.navigationController pushViewController:vc animated:YES];
-    }
-    else if (indexPath.row==3){
+    }else if (indexPath.row==4){
         GraphicsVC *vc=[GraphicsVC new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row==5){
+        GraphicsLineVC *vc=[GraphicsLineVC new];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
