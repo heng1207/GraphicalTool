@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A29631D894B3AA3BA3A6708 /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8008E7E22193A9437FE273F /* Pods_____.framework */; };
+		7EB83B1520E7AAAC004E3F55 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B1420E7AAAC004E3F55 /* Test.swift */; };
+		7EB83B3720E7ABC9004E3F55 /* YAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B1720E7ABC8004E3F55 /* YAxisView.m */; };
+		7EB83B3820E7ABC9004E3F55 /* XAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B1920E7ABC8004E3F55 /* XAxisView.m */; };
+		7EB83B3920E7ABC9004E3F55 /* WSLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B1C20E7ABC8004E3F55 /* WSLineChartView.m */; };
+		7EB83B3A20E7ABC9004E3F55 /* GraphicsLineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B1D20E7ABC8004E3F55 /* GraphicsLineVC.m */; };
+		7EB83B3B20E7ABC9004E3F55 /* BezierLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B2220E7ABC9004E3F55 /* BezierLineView.m */; };
+		7EB83B3C20E7ABC9004E3F55 /* BezierDrawLineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B2320E7ABC9004E3F55 /* BezierDrawLineVC.m */; };
+		7EB83B3D20E7ABC9004E3F55 /* GraphicsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B2520E7ABC9004E3F55 /* GraphicsVC.m */; };
+		7EB83B3E20E7ABC9004E3F55 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B2820E7ABC9004E3F55 /* CustomView.m */; };
+		7EB83B3F20E7ABC9004E3F55 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B2A20E7ABC9004E3F55 /* TestViewController.m */; };
+		7EB83B4020E7ABC9004E3F55 /* LineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B2D20E7ABC9004E3F55 /* LineChartViewController.m */; };
+		7EB83B4120E7ABC9004E3F55 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B3120E7ABC9004E3F55 /* BezierView.m */; };
+		7EB83B4220E7ABC9004E3F55 /* TargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B3320E7ABC9004E3F55 /* TargetView.m */; };
+		7EB83B4320E7ABC9004E3F55 /* BezierCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B3520E7ABC9004E3F55 /* BezierCurveView.m */; };
+		7EB83B4420E7ABC9004E3F55 /* BezierSlideLineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B3620E7ABC9004E3F55 /* BezierSlideLineVC.m */; };
+		7EB83B4820E7B3E8004E3F55 /* CoreGraphicsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B4720E7B3E8004E3F55 /* CoreGraphicsVC.m */; };
+		7EB83B4B20E7B431004E3F55 /* CustomView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B4A20E7B431004E3F55 /* CustomView1.m */; };
+		7EB83B5120E7B4A5004E3F55 /* CustomView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B4D20E7B4A5004E3F55 /* CustomView2.m */; };
+		7EB83B5220E7B4A5004E3F55 /* BezierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB83B4E20E7B4A5004E3F55 /* BezierViewController.m */; };
+		7EB83B5520E7B4ED004E3F55 /* nba.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EB83B5320E7B4ED004E3F55 /* nba.png */; };
+		7EB83B5620E7B4ED004E3F55 /* nba-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EB83B5420E7B4ED004E3F55 /* nba-1.png */; };
+		7ED4ECD820E7A99C00D6FE7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED4ECD720E7A99C00D6FE7E /* AppDelegate.m */; };
+		7ED4ECDB20E7A99C00D6FE7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED4ECDA20E7A99C00D6FE7E /* ViewController.m */; };
+		7ED4ECDE20E7A99C00D6FE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED4ECDC20E7A99C00D6FE7E /* Main.storyboard */; };
+		7ED4ECE020E7A99C00D6FE7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED4ECDF20E7A99C00D6FE7E /* Assets.xcassets */; };
+		7ED4ECE320E7A99C00D6FE7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED4ECE120E7A99C00D6FE7E /* LaunchScreen.storyboard */; };
+		7ED4ECE620E7A99C00D6FE7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED4ECE520E7A99C00D6FE7E /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EB83B1320E7AAAB004E3F55 /* 图形绘制-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "图形绘制-Bridging-Header.h"; sourceTree = "<group>"; };
+		7EB83B1420E7AAAC004E3F55 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		7EB83B1720E7ABC8004E3F55 /* YAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAxisView.m; sourceTree = "<group>"; };
+		7EB83B1820E7ABC8004E3F55 /* WSLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLineChartView.h; sourceTree = "<group>"; };
+		7EB83B1920E7ABC8004E3F55 /* XAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAxisView.m; sourceTree = "<group>"; };
+		7EB83B1A20E7ABC8004E3F55 /* GraphicsLineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsLineVC.h; sourceTree = "<group>"; };
+		7EB83B1B20E7ABC8004E3F55 /* YAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAxisView.h; sourceTree = "<group>"; };
+		7EB83B1C20E7ABC8004E3F55 /* WSLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLineChartView.m; sourceTree = "<group>"; };
+		7EB83B1D20E7ABC8004E3F55 /* GraphicsLineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsLineVC.m; sourceTree = "<group>"; };
+		7EB83B1E20E7ABC8004E3F55 /* XAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAxisView.h; sourceTree = "<group>"; };
+		7EB83B2020E7ABC9004E3F55 /* BezierDrawLineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierDrawLineVC.h; sourceTree = "<group>"; };
+		7EB83B2120E7ABC9004E3F55 /* BezierLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierLineView.h; sourceTree = "<group>"; };
+		7EB83B2220E7ABC9004E3F55 /* BezierLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierLineView.m; sourceTree = "<group>"; };
+		7EB83B2320E7ABC9004E3F55 /* BezierDrawLineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierDrawLineVC.m; sourceTree = "<group>"; };
+		7EB83B2520E7ABC9004E3F55 /* GraphicsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsVC.m; sourceTree = "<group>"; };
+		7EB83B2620E7ABC9004E3F55 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		7EB83B2720E7ABC9004E3F55 /* GraphicsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsVC.h; sourceTree = "<group>"; };
+		7EB83B2820E7ABC9004E3F55 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		7EB83B2A20E7ABC9004E3F55 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		7EB83B2B20E7ABC9004E3F55 /* LineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewController.h; sourceTree = "<group>"; };
+		7EB83B2C20E7ABC9004E3F55 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		7EB83B2D20E7ABC9004E3F55 /* LineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewController.m; sourceTree = "<group>"; };
+		7EB83B2F20E7ABC9004E3F55 /* BezierSlideLineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierSlideLineVC.h; sourceTree = "<group>"; };
+		7EB83B3020E7ABC9004E3F55 /* BezierCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierCurveView.h; sourceTree = "<group>"; };
+		7EB83B3120E7ABC9004E3F55 /* BezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
+		7EB83B3220E7ABC9004E3F55 /* TargetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetView.h; sourceTree = "<group>"; };
+		7EB83B3320E7ABC9004E3F55 /* TargetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetView.m; sourceTree = "<group>"; };
+		7EB83B3420E7ABC9004E3F55 /* BezierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierView.h; sourceTree = "<group>"; };
+		7EB83B3520E7ABC9004E3F55 /* BezierCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierCurveView.m; sourceTree = "<group>"; };
+		7EB83B3620E7ABC9004E3F55 /* BezierSlideLineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierSlideLineVC.m; sourceTree = "<group>"; };
+		7EB83B4620E7B3E8004E3F55 /* CoreGraphicsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsVC.h; sourceTree = "<group>"; };
+		7EB83B4720E7B3E8004E3F55 /* CoreGraphicsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsVC.m; sourceTree = "<group>"; };
+		7EB83B4920E7B431004E3F55 /* CustomView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView1.h; sourceTree = "<group>"; };
+		7EB83B4A20E7B431004E3F55 /* CustomView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView1.m; sourceTree = "<group>"; };
+		7EB83B4D20E7B4A5004E3F55 /* CustomView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView2.m; sourceTree = "<group>"; };
+		7EB83B4E20E7B4A5004E3F55 /* BezierViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierViewController.m; sourceTree = "<group>"; };
+		7EB83B4F20E7B4A5004E3F55 /* CustomView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView2.h; sourceTree = "<group>"; };
+		7EB83B5020E7B4A5004E3F55 /* BezierViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierViewController.h; sourceTree = "<group>"; };
+		7EB83B5320E7B4ED004E3F55 /* nba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nba.png; sourceTree = "<group>"; };
+		7EB83B5420E7B4ED004E3F55 /* nba-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nba-1.png"; sourceTree = "<group>"; };
+		7ED4ECD320E7A99C00D6FE7E /* 图形绘制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图形绘制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED4ECD620E7A99C00D6FE7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ED4ECD720E7A99C00D6FE7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ED4ECD920E7A99C00D6FE7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7ED4ECDA20E7A99C00D6FE7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7ED4ECDD20E7A99C00D6FE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ED4ECDF20E7A99C00D6FE7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ED4ECE220E7A99C00D6FE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ED4ECE420E7A99C00D6FE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED4ECE520E7A99C00D6FE7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86BAFE22C3113A42743BF845 /* Pods-图形绘制.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-图形绘制.release.xcconfig"; path = "Pods/Target Support Files/Pods-图形绘制/Pods-图形绘制.release.xcconfig"; sourceTree = "<group>"; };
+		A8008E7E22193A9437FE273F /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F2CB133AF182C5B799338D /* Pods-图形绘制.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-图形绘制.debug.xcconfig"; path = "Pods/Target Support Files/Pods-图形绘制/Pods-图形绘制.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ED4ECD020E7A99C00D6FE7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A29631D894B3AA3BA3A6708 /* Pods_____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EB83B1620E7ABC8004E3F55 /* GraphicsLine */ = {
+			isa = PBXGroup;
+			children = (
+				7EB83B1720E7ABC8004E3F55 /* YAxisView.m */,
+				7EB83B1820E7ABC8004E3F55 /* WSLineChartView.h */,
+				7EB83B1920E7ABC8004E3F55 /* XAxisView.m */,
+				7EB83B1A20E7ABC8004E3F55 /* GraphicsLineVC.h */,
+				7EB83B1B20E7ABC8004E3F55 /* YAxisView.h */,
+				7EB83B1C20E7ABC8004E3F55 /* WSLineChartView.m */,
+				7EB83B1D20E7ABC8004E3F55 /* GraphicsLineVC.m */,
+				7EB83B1E20E7ABC8004E3F55 /* XAxisView.h */,
+			);
+			path = GraphicsLine;
+			sourceTree = "<group>";
+		};
+		7EB83B1F20E7ABC9004E3F55 /* BezierDrawLine */ = {
+			isa = PBXGroup;
+			children = (
+				7EB83B2020E7ABC9004E3F55 /* BezierDrawLineVC.h */,
+				7EB83B2120E7ABC9004E3F55 /* BezierLineView.h */,
+				7EB83B2220E7ABC9004E3F55 /* BezierLineView.m */,
+				7EB83B2320E7ABC9004E3F55 /* BezierDrawLineVC.m */,
+			);
+			path = BezierDrawLine;
+			sourceTree = "<group>";
+		};
+		7EB83B2420E7ABC9004E3F55 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				7EB83B2520E7ABC9004E3F55 /* GraphicsVC.m */,
+				7EB83B2620E7ABC9004E3F55 /* CustomView.h */,
+				7EB83B2720E7ABC9004E3F55 /* GraphicsVC.h */,
+				7EB83B2820E7ABC9004E3F55 /* CustomView.m */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		7EB83B2920E7ABC9004E3F55 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				7EB83B2A20E7ABC9004E3F55 /* TestViewController.m */,
+				7EB83B2B20E7ABC9004E3F55 /* LineChartViewController.h */,
+				7EB83B2C20E7ABC9004E3F55 /* TestViewController.h */,
+				7EB83B2D20E7ABC9004E3F55 /* LineChartViewController.m */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		7EB83B2E20E7ABC9004E3F55 /* BezierLine */ = {
+			isa = PBXGroup;
+			children = (
+				7EB83B2F20E7ABC9004E3F55 /* BezierSlideLineVC.h */,
+				7EB83B3020E7ABC9004E3F55 /* BezierCurveView.h */,
+				7EB83B3120E7ABC9004E3F55 /* BezierView.m */,
+				7EB83B3220E7ABC9004E3F55 /* TargetView.h */,
+				7EB83B3320E7ABC9004E3F55 /* TargetView.m */,
+				7EB83B3420E7ABC9004E3F55 /* BezierView.h */,
+				7EB83B3520E7ABC9004E3F55 /* BezierCurveView.m */,
+				7EB83B3620E7ABC9004E3F55 /* BezierSlideLineVC.m */,
+			);
+			path = BezierLine;
+			sourceTree = "<group>";
+		};
+		7EB83B4520E7B3C6004E3F55 /* CoreGraphics基础 */ = {
+			isa = PBXGroup;
+			children = (
+				7EB83B4620E7B3E8004E3F55 /* CoreGraphicsVC.h */,
+				7EB83B4720E7B3E8004E3F55 /* CoreGraphicsVC.m */,
+				7EB83B4920E7B431004E3F55 /* CustomView1.h */,
+				7EB83B4A20E7B431004E3F55 /* CustomView1.m */,
+			);
+			path = "CoreGraphics基础";
+			sourceTree = "<group>";
+		};
+		7EB83B4C20E7B4A5004E3F55 /* BezierView基础 */ = {
+			isa = PBXGroup;
+			children = (
+				7EB83B4D20E7B4A5004E3F55 /* CustomView2.m */,
+				7EB83B4E20E7B4A5004E3F55 /* BezierViewController.m */,
+				7EB83B4F20E7B4A5004E3F55 /* CustomView2.h */,
+				7EB83B5020E7B4A5004E3F55 /* BezierViewController.h */,
+			);
+			path = "BezierView基础";
+			sourceTree = "<group>";
+		};
+		7ED4ECCA20E7A99C00D6FE7E = {
+			isa = PBXGroup;
+			children = (
+				7ED4ECD520E7A99C00D6FE7E /* 图形绘制 */,
+				7ED4ECD420E7A99C00D6FE7E /* Products */,
+				EFA228351A4A87F8E56F1C90 /* Pods */,
+				C33553EC64F6957B3FC09305 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 1;
+		};
+		7ED4ECD420E7A99C00D6FE7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ED4ECD320E7A99C00D6FE7E /* 图形绘制.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ED4ECD520E7A99C00D6FE7E /* 图形绘制 */ = {
+			isa = PBXGroup;
+			children = (
+				7ED4ECD620E7A99C00D6FE7E /* AppDelegate.h */,
+				7ED4ECD720E7A99C00D6FE7E /* AppDelegate.m */,
+				7ED4ECD920E7A99C00D6FE7E /* ViewController.h */,
+				7ED4ECDA20E7A99C00D6FE7E /* ViewController.m */,
+				7EB83B4C20E7B4A5004E3F55 /* BezierView基础 */,
+				7EB83B4520E7B3C6004E3F55 /* CoreGraphics基础 */,
+				7EB83B1F20E7ABC9004E3F55 /* BezierDrawLine */,
+				7EB83B2E20E7ABC9004E3F55 /* BezierLine */,
+				7EB83B2920E7ABC9004E3F55 /* Charts */,
+				7EB83B2420E7ABC9004E3F55 /* Graphics */,
+				7EB83B1620E7ABC8004E3F55 /* GraphicsLine */,
+				7EB83B1420E7AAAC004E3F55 /* Test.swift */,
+				7EB83B5420E7B4ED004E3F55 /* nba-1.png */,
+				7EB83B5320E7B4ED004E3F55 /* nba.png */,
+				7ED4ECDC20E7A99C00D6FE7E /* Main.storyboard */,
+				7ED4ECDF20E7A99C00D6FE7E /* Assets.xcassets */,
+				7ED4ECE120E7A99C00D6FE7E /* LaunchScreen.storyboard */,
+				7ED4ECE420E7A99C00D6FE7E /* Info.plist */,
+				7ED4ECE520E7A99C00D6FE7E /* main.m */,
+				7EB83B1320E7AAAB004E3F55 /* 图形绘制-Bridging-Header.h */,
+			);
+			path = "图形绘制";
+			sourceTree = "<group>";
+		};
+		C33553EC64F6957B3FC09305 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8008E7E22193A9437FE273F /* Pods_____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFA228351A4A87F8E56F1C90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2CB133AF182C5B799338D /* Pods-图形绘制.debug.xcconfig */,
+				86BAFE22C3113A42743BF845 /* Pods-图形绘制.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ED4ECD220E7A99C00D6FE7E /* 图形绘制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ED4ECE920E7A99C00D6FE7E /* Build configuration list for PBXNativeTarget "图形绘制" */;
+			buildPhases = (
+				C344F8AB1634D2F6B155B756 /* [CP] Check Pods Manifest.lock */,
+				7ED4ECCF20E7A99C00D6FE7E /* Sources */,
+				7ED4ECD020E7A99C00D6FE7E /* Frameworks */,
+				7ED4ECD120E7A99C00D6FE7E /* Resources */,
+				8EEAB9346230E7FC244C857D /* [CP] Embed Pods Frameworks */,
+				2E85BF6822535A620A241A78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图形绘制";
+			productName = "图形绘制";
+			productReference = 7ED4ECD320E7A99C00D6FE7E /* 图形绘制.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ED4ECCB20E7A99C00D6FE7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "张恒";
+				TargetAttributes = {
+					7ED4ECD220E7A99C00D6FE7E = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7ED4ECCE20E7A99C00D6FE7E /* Build configuration list for PBXProject "图形绘制" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ED4ECCA20E7A99C00D6FE7E;
+			productRefGroup = 7ED4ECD420E7A99C00D6FE7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ED4ECD220E7A99C00D6FE7E /* 图形绘制 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ED4ECD120E7A99C00D6FE7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED4ECE320E7A99C00D6FE7E /* LaunchScreen.storyboard in Resources */,
+				7ED4ECE020E7A99C00D6FE7E /* Assets.xcassets in Resources */,
+				7EB83B5620E7B4ED004E3F55 /* nba-1.png in Resources */,
+				7ED4ECDE20E7A99C00D6FE7E /* Main.storyboard in Resources */,
+				7EB83B5520E7B4ED004E3F55 /* nba.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E85BF6822535A620A241A78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-图形绘制/Pods-图形绘制-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EEAB9346230E7FC244C857D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-图形绘制/Pods-图形绘制-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C344F8AB1634D2F6B155B756 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ED4ECCF20E7A99C00D6FE7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB83B3720E7ABC9004E3F55 /* YAxisView.m in Sources */,
+				7EB83B3F20E7ABC9004E3F55 /* TestViewController.m in Sources */,
+				7EB83B5120E7B4A5004E3F55 /* CustomView2.m in Sources */,
+				7ED4ECDB20E7A99C00D6FE7E /* ViewController.m in Sources */,
+				7EB83B1520E7AAAC004E3F55 /* Test.swift in Sources */,
+				7ED4ECE620E7A99C00D6FE7E /* main.m in Sources */,
+				7EB83B3920E7ABC9004E3F55 /* WSLineChartView.m in Sources */,
+				7EB83B3E20E7ABC9004E3F55 /* CustomView.m in Sources */,
+				7EB83B4B20E7B431004E3F55 /* CustomView1.m in Sources */,
+				7EB83B3A20E7ABC9004E3F55 /* GraphicsLineVC.m in Sources */,
+				7EB83B3820E7ABC9004E3F55 /* XAxisView.m in Sources */,
+				7EB83B4220E7ABC9004E3F55 /* TargetView.m in Sources */,
+				7EB83B4320E7ABC9004E3F55 /* BezierCurveView.m in Sources */,
+				7ED4ECD820E7A99C00D6FE7E /* AppDelegate.m in Sources */,
+				7EB83B4820E7B3E8004E3F55 /* CoreGraphicsVC.m in Sources */,
+				7EB83B5220E7B4A5004E3F55 /* BezierViewController.m in Sources */,
+				7EB83B3B20E7ABC9004E3F55 /* BezierLineView.m in Sources */,
+				7EB83B3D20E7ABC9004E3F55 /* GraphicsVC.m in Sources */,
+				7EB83B4120E7ABC9004E3F55 /* BezierView.m in Sources */,
+				7EB83B4420E7ABC9004E3F55 /* BezierSlideLineVC.m in Sources */,
+				7EB83B3C20E7ABC9004E3F55 /* BezierDrawLineVC.m in Sources */,
+				7EB83B4020E7ABC9004E3F55 /* LineChartViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7ED4ECDC20E7A99C00D6FE7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ED4ECDD20E7A99C00D6FE7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ED4ECE120E7A99C00D6FE7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ED4ECE220E7A99C00D6FE7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ED4ECE720E7A99C00D6FE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ED4ECE820E7A99C00D6FE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ED4ECEA20E7A99C00D6FE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F2CB133AF182C5B799338D /* Pods-图形绘制.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "图形绘制/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "图形绘制/图形绘制-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ED4ECEB20E7A99C00D6FE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BAFE22C3113A42743BF845 /* Pods-图形绘制.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "图形绘制/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "图形绘制/图形绘制-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ED4ECCE20E7A99C00D6FE7E /* Build configuration list for PBXProject "图形绘制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED4ECE720E7A99C00D6FE7E /* Debug */,
+				7ED4ECE820E7A99C00D6FE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ED4ECE920E7A99C00D6FE7E /* Build configuration list for PBXNativeTarget "图形绘制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED4ECEA20E7A99C00D6FE7E /* Debug */,
+				7ED4ECEB20E7A99C00D6FE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ED4ECCB20E7A99C00D6FE7E /* Project object */;
+}

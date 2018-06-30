@@ -1,8 +1,0 @@
-platform :ios, '8.0'
-use_frameworks!
-
-target 'xxxxxx' do
-  pod 'Charts'
-  pod 'SVProgressHUD'
-  pod 'Masonry'
-end
