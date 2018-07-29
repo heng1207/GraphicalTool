@@ -108,14 +108,14 @@
 		7EB83B1620E7ABC8004E3F55 /* GraphicsLine */ = {
 			isa = PBXGroup;
 			children = (
-				7EB83B1720E7ABC8004E3F55 /* YAxisView.m */,
-				7EB83B1820E7ABC8004E3F55 /* WSLineChartView.h */,
-				7EB83B1920E7ABC8004E3F55 /* XAxisView.m */,
 				7EB83B1A20E7ABC8004E3F55 /* GraphicsLineVC.h */,
-				7EB83B1B20E7ABC8004E3F55 /* YAxisView.h */,
-				7EB83B1C20E7ABC8004E3F55 /* WSLineChartView.m */,
 				7EB83B1D20E7ABC8004E3F55 /* GraphicsLineVC.m */,
+				7EB83B1820E7ABC8004E3F55 /* WSLineChartView.h */,
+				7EB83B1C20E7ABC8004E3F55 /* WSLineChartView.m */,
 				7EB83B1E20E7ABC8004E3F55 /* XAxisView.h */,
+				7EB83B1920E7ABC8004E3F55 /* XAxisView.m */,
+				7EB83B1B20E7ABC8004E3F55 /* YAxisView.h */,
+				7EB83B1720E7ABC8004E3F55 /* YAxisView.m */,
 			);
 			path = GraphicsLine;
 			sourceTree = "<group>";
@@ -124,9 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				7EB83B2020E7ABC9004E3F55 /* BezierDrawLineVC.h */,
+				7EB83B2320E7ABC9004E3F55 /* BezierDrawLineVC.m */,
 				7EB83B2120E7ABC9004E3F55 /* BezierLineView.h */,
 				7EB83B2220E7ABC9004E3F55 /* BezierLineView.m */,
-				7EB83B2320E7ABC9004E3F55 /* BezierDrawLineVC.m */,
 			);
 			path = BezierDrawLine;
 			sourceTree = "<group>";
@@ -157,13 +157,13 @@
 			isa = PBXGroup;
 			children = (
 				7EB83B2F20E7ABC9004E3F55 /* BezierSlideLineVC.h */,
+				7EB83B3620E7ABC9004E3F55 /* BezierSlideLineVC.m */,
 				7EB83B3020E7ABC9004E3F55 /* BezierCurveView.h */,
+				7EB83B3520E7ABC9004E3F55 /* BezierCurveView.m */,
 				7EB83B3120E7ABC9004E3F55 /* BezierView.m */,
 				7EB83B3220E7ABC9004E3F55 /* TargetView.h */,
 				7EB83B3320E7ABC9004E3F55 /* TargetView.m */,
 				7EB83B3420E7ABC9004E3F55 /* BezierView.h */,
-				7EB83B3520E7ABC9004E3F55 /* BezierCurveView.m */,
-				7EB83B3620E7ABC9004E3F55 /* BezierSlideLineVC.m */,
 			);
 			path = BezierLine;
 			sourceTree = "<group>";
